@@ -1,0 +1,24 @@
+.table {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  width: 846px;
+}
+.back{
+  display: flex;
+  justify-content: flex-start;
+  width: 65%;
+  color: #2D9CDB;
+  text-decoration: none;
+}
+.imageSize {
+  width: 72px;
+  height: 72px;
+  border-radius: 8px;
+}
+.inputGroup{
+    width: 56%;
+    margin: 12px 0;
+}
+.dropSize{
+  width: 12% ;
+}
