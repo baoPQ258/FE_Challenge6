@@ -6,7 +6,7 @@ import {
   UpdateProfileActionTypes,
 } from "../actions/profileActions";
 
-interface ProfileState {
+export interface ProfileState {
   data: User | "";
   error: string | null;
 }

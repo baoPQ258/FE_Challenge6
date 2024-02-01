@@ -11,16 +11,19 @@ import {
   PROFILE_FAILURE,
 } from "../actions/authActions";
 
-interface AuthState {
+// Define the AuthState type
+export interface AuthState {
   data: User | "";
   error: string | null;
 }
 
+// Define the initial state
 const initialState: AuthState = {
   data: "",
   error: null,
 };
 
+// Create the authReducer
 const authReducer = (
   state = initialState,
   action: AuthActionTypes

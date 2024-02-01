@@ -46,7 +46,7 @@ function Dropdown({ handleLogout }: DropdownProp) {
           <li onClick={handleLogout}>
             <a
               className="dropdown-item d-flex align-items-center text-danger"
-              href="#"
+              href="/"
             >
               <span className="material-symbols-outlined me-3">logout</span>
               Logout

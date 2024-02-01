@@ -9,7 +9,7 @@ import {
   UPDATE_GROUP_SUCCESS,
 } from "../actions/socketActions";
 
-interface SocketState {
+export interface SocketState {
   data: Group | "";
   error: string | null;
 }
