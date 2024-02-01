@@ -253,7 +253,7 @@ function Channel({
                 <li onClick={handleLogout}>
                   <a
                     className="dropdown-item d-flex align-items-center text-white"
-                    href="#"
+                    href="/"
                   >
                     <span className="material-symbols-outlined me-3">
                       logout
